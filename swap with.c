@@ -1,0 +1,23 @@
+﻿/*
+Author: Anushka
+Date: 12-08-26
+Description: Write a program to swap two numbers using a third variable.
+*/
+#include <stdio.h>
+
+int main(void)
+{
+    int a=0,b=0,c;
+    printf("enter first number\n");
+    scanf("%d",&a);
+    printf("enter second number\n");
+    scanf("%d",&b);
+    c = a;
+    a = b;
+    b = c;
+    printf("after swapping:\n");
+    printf("first number = %d\n",a);
+    printf("second number = %d\n",b);
+   // return 0;
+}
+
